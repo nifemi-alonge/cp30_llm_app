@@ -1,0 +1,16 @@
+[project]
+name = "llm-app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10.16"
+dependencies = [
+    "bs4>=0.0.2",
+    "chromadb>=1.0.20",
+    "huggingface-hub>=0.34.4",
+    "langchain>=0.3.27",
+    "langchain-community>=0.3.27",
+    "langchain-huggingface>=0.3.1",
+    "pypdf>=6.0.0",
+    "sentence-transformers>=5.1.0",
+]
